@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Live by Nature</title>
+  <link rel="stylesheet" href="master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:ital,wght@0,300;1,300&family=Poppins:wght@900&family=Send+Flowers&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg">
+  <header>
+    <div class="bg">
+      <h1 id="title" class="fadeinanim">Live by Nature</h1>
+      <h4 id="subtitle" class="fadeinanim">One movement for all of Earth</h4>
+      <img src="https://i.imgur.com/dNlf1B3.png" alt="arrow" class="bounce" style="width: 2em">
+      <hr class="space_top">
+    </div>
+  </header>
+  <main>
+    <div class="content">
+      <p id="description">
+        <strong><em>"Mother Nature always gives and never asks back.<br> We are on a mission to give her the <strong>Care and Respect</strong>
+            she deserves.<br> Please fill the below form to be a part of this movement."</em><br></strong>
+      </p>
+    </div>
+    <div>
+    <form id="survey-form" action="" method="post">
+        <label>Your Name <br>
+          <input class="form_box" type="text" placeholder="eg. Rohit Bharat" name="Your Name" value="" id="name-label"><br>
+        </label>
+
+        <label for="email">Your Email <br>
+          <input class="form_box" type="email" placeholder="eg. someone@email.com" name="Your Email" value="" id="input-label"><br>
+        </label>
+
+        <label for="Age">Your Age <br>
+          <input class="form_box" type="number" name="Your Age" placeholder="a number between 8 and 80" value="" min="8" max="80" id="number-label"><br>
+        </label>
+        <label for="flowers">Select a flower from the dropdown menu <br>
+        <select id="dropdown" name="flowers"><br>
+        <option value="lavender">lavender</option>
+        <option value="lily">lily</option>
+        <option value="Rose">Rose</option>
+      </select>
+      </label>
+        <fieldset style="border: 0">
+          <label for="Favourite-tree">Select a Tree from the List <br>
+            <div style="font-size: 0.7em">
+              <input type="radio" name="Favourite-tree">Acacia</input>
+              <input type="radio" name="Favourite-tree">Cedar</input>
+              <input type="radio" name="Favourite-tree">Beobak</input>
+            </div>
+
+          </label>
+        </fieldset>
+        <label for="comments">Additional Comments <br>
+          <textarea name="Additional Comments" rows="4" cols="24" placeholder="..."></textarea>
+        </label>
+        <fieldset style="border: 0">
+          <label for="consent1">I have read the privacy policy.
+          <input type="checkbox" name="consent1" value=" class="form_box""></label><br>
+          <label for="consent2" required>I agree to terms and conditions
+          <input type="checkbox" name="checkbox" value=""></label><br>
+
+        </fieldset>
+        <label for="submit"><button class="button button1" type="button" name="button" id="submit">Submit</button></label>
+    </form>
+    </div>
+  </main>
+  <footer class="ft">
+    <h3>created by sameer89, check out my other projects at <a href="https://github.com/sameert89">github</a></h3>
+  </footer>
+</body>
+
+</html>
